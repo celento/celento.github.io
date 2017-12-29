@@ -59,6 +59,7 @@ span{
     color: #000;
     font-weight: 700;
     line-height: 1.5;
+    /* margin-top:100px; */
 }
 .desc{
     font-family: 'Source Sans Pro', sans-serif;
@@ -121,10 +122,13 @@ span{
      font-size: 25px;
      color: #000;
      font-weight: 700;
-     max-width: 700px;
+     max-width: 900px;
      line-height: 1.5;
-     text-align: left;
+     
  }
+
+ 
+
  .light-color{
      color: rgb(105, 104, 104);
     display: inline;
@@ -212,6 +216,7 @@ a:hover{
     /* font-weight: 700; */
 
 }
+
 .end-img{
     width: 64px;
 }
@@ -235,3 +240,139 @@ a:hover{
 .bg2{
     background-color: #000 !important;
 }
+
+
+
+/* Hold DIV Height */
+
+
+/* abt 1 */
+#section1{
+    height: 476px;
+    padding-top: 100px;
+
+}
+/* abt 2 */
+#section2{
+    height: 380px;
+    padding-top:170px;
+}
+/* work */
+#section3{
+    height: 800px;
+    padding-top:100px;
+}
+/* intrests */
+#section7{
+    height:400px;
+    padding-top: 10px;
+}
+/* feat */
+#section4{
+    height: 650px;
+    padding-top:200px;
+}
+/* contact */
+#section5{
+    height: 650px;
+    padding-top:200px;
+}
+/* signature */
+
+#section6{
+    height: 200px;
+    padding-top:50px;
+}
+
+
+
+
+
+/* RESPONSIVE STUFF */
+/* <celento> 29.12.17 */
+
+@media screen and (max-width:1050px)
+{
+
+    .about-main{
+        width:100%;
+    }
+    .about-inner{
+        float: none;
+        height: auto;
+        width: 100%;
+
+    }
+    .about-text{
+        max-width:none;
+        padding:40px;
+    }
+    .name{
+        font-size: 50px;
+        margin-right:30px;
+    }
+    .desc{
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+
+
+    .section{
+        height:auto !important;
+    }
+
+    #section1{
+        padding-bottom: 100px;
+    }
+    #section2{
+        padding-bottom: 100px;
+    }
+    #section4{
+        padding-top: 50px;
+    }
+    #section6{
+        padding-top:15px;
+    }
+    .basic-text{
+        padding: 40px;
+    }
+    .made{
+        padding-bottom: 40px;
+    }
+
+    span{
+        padding-right: 0px;
+
+    }
+
+    .heading
+    {
+        font-size: 50px;
+    }
+
+    /* Images */
+
+    .work-img-s-r{
+        width:100%;
+    }
+    .work-img-s-l{
+        width:100%;
+    }
+    .feat-img-r{
+        width:75%;
+        margin-right: 0px;
+        float: none;
+
+    }
+    .feat-img-l{
+        width:75%;
+        margin-left: 0px;        
+        float: none;
+    }
+
+}
+
+
+
+
