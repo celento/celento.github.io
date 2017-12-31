@@ -13,30 +13,27 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
 	
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama" rel="stylesheet">
+ 
+
 
 	<!-- <script type="text/javascript" src="js/scrolloverflow.js"></script> -->
 
 	<!-- <script type="text/javascript" src="js/jquery.fullPage.js"></script> -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-			});
-		});
-	</script>
+ 
 
 </head>
 <body>
-
+	 
 <div id="fullpage">
-	<div class="section active" id="section0">
+
+	<div class="section active" id="particles-js"  >
 			<div class="cover-page"><span>
 			<p class="name"><b> Celento C George </b></p>
 			<p class="desc">Founder at Imeyou and Celensoft. Currently building the BFF app. <br/>Entreprenuer, Programmer, Designer & Student.</p>
@@ -44,24 +41,24 @@
 		   </div>
 	</div>
 	<div class="section bg1" id="section1">
-	<div class="about-main">
-		<div class="about-inner">
+	<div class="about-main fl">
+		<div class="about-inner fl">
 			<p class="empty">.</p>
 		</div>
-		<div class="about-inner">
-				<p class="about-text">Coding since 10. Founded Celensoft in 2008 for the love of code. Initially focused on building websites later moved on to app developement. Made a web browser named “Super Web” back in 2010 which was downloaded over a million times. Celensoft later became a Microsoft Certified Startup. Created serveral products under the name Celensoft for over 10 years many of which had a large userbase.
+		<div class="about-inner fl">
+				<p class="about-text text-res">Coding since 10. Founded Celensoft in 2008 for the love of code. Initially focused on building websites later moved on to app developement. Made a web browser named “Super Web” back in 2010 which was downloaded over a million times. Celensoft later became a Microsoft Certified Startup. Created serveral products under the name Celensoft for over 10 years many of which had a large userbase.
 				</p>
 		</div>
 	</div>
 	</div>
  
 	<div class="section bg2" id="section2">
-			<div class="about-main">
-					<div class="about-inner">
-						<p class="about-text white">Co-founded Imeyou in 2016 for the love of connecting people. Became a Microsoft Student Partner in 2017. Currently building the BFF App, a decentralized online platform to ask & refer contacts.
+			<div class="about-main fl">
+					<div class="about-inner fl">
+						<p class="about-text white text-res">Co-founded Imeyou in 2016 for the love of connecting people. Became a Microsoft Student Partner in 2017. Currently building the BFF App, a decentralized online platform to ask & refer contacts.
 						</p>
 					</div>
-				<div class="about-inner">
+				<div class="about-inner fl ">
 					<p class="empty black">.</p>
 				</div>
 			</div>		
@@ -74,15 +71,19 @@
 					<img class="work-img" src="img/work/bff.png"/>
 					<p class="basic-text black">other works:</p>
 					<div class="about-inner">
+						<center> 
 							<img class="work-img-s-r" src="img/work/superweb.png"/>
 							<img class="work-img-s-r" src="img/work/go.png"/>
 							<img class="work-img-s-r" src="img/work/writeup.png"/>
 							<img class="work-img-s-r" src="img/work/studio.png"/>
+							</center>
 					</div>
 					<div class="about-inner">
+						<center>
 							<img class="work-img-s-l" src="img/work/instant.png"/>
 							<img class="work-img-s-l" src="img/work/sire.png"/>
 							<img class="work-img-s-l" src="img/work/opacity.png"/>
+							</center>
 						 
 					</div>
 				</div>		
@@ -111,8 +112,9 @@
 <div class="section bg2" id="section4">
 		<div class="about-main">
 			<p class="heading white" style="margin-bottom:20px">featured on</p>
-			<p class="basic-text white shift-padding"  style="margin-bottom:20px">I was lucky enough to get featured on some of the leading publications. Here are a few.</p>
-		
+			<center>
+			<p class="basic-text sl white shift-padding"  style="margin-bottom:20px">I was lucky enough to get featured on some of the leading publications. Here are a few.</p>
+		    max-width: 600px;
 		 
 			<div class="about-inner">
 				<center>
@@ -151,9 +153,10 @@
 			</center>
 			
 			<p class="basic-text big shift-padding black " style="font-size:15px;" >If you don't prefer the above method, feel free to contact me via my email or any of my social profiles.</p>
-
+			<center>
 			<!-- <hr class="small-hr"> -->
 			<img class="email-img" src="img/social/email.png"/>
+			</center>
 			</div>
 			 <br>
 			 <br>
@@ -178,7 +181,7 @@
 				<img class="end-img" src="img/social/code.png"/>
 			</center> -->
 			<center>
-				<p class="signature">Celento C George</p>
+				<p class="signature">Celento</p>
 
 				<p class="made">Made with all the <img src="img/social/heart.png" class="heart"/> in the world.</p>
 			</center>
@@ -189,4 +192,6 @@
 			 
 </div>
 </body>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 </html>
