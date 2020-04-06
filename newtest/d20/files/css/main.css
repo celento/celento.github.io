@@ -1,0 +1,336 @@
+body{
+    margin:0 auto;
+    background-color: #000;
+}
+
+.cover-page{
+    display: table;
+    width:100%;
+    max-width: 900px;
+    height: 100vh;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cover-page span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.abt-th{
+    /* font-family: 'Source Code Pro', monospace; */
+    color: yellow;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 85px;
+    letter-spacing: 5px;
+    font-family: 'Bangers', cursive;
+    /* font-family: 'Yesteryear', cursive;/ */
+}
+
+.me_img{
+    width:200px;
+    margin-bottom: 20px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    /* border: 1px solid black */
+}
+
+.desc{
+    font-size: 22px;
+    margin-top: 0px;
+    max-width: 700px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'open_sansregular';
+}
+
+a{
+    color: yellow;
+}
+
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+.main-content{
+    height:fit-content;
+    height: auto;
+   
+    padding:50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.black-div{
+    background-color: black;
+}
+.blue-div{
+    background-color: #000;
+}
+
+.pk-div{
+    background-color: #000;
+}
+
+.abt-div{
+    background-color: #000;
+}
+
+.headline-1{
+    font-size: 40px;
+    /* color: red; */
+    /* font-family: 'open_sansbold'; */
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+
+}
+
+
+.abt-name{
+    font-size: 40px;
+    /* color: red; */
+    margin-bottom: 0px;
+    font-family: 'open_sansbold';
+}
+
+.all-the-love{
+    font-size: 15px;
+    /* color: red; */
+    margin-top:0px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.bold-title-px{
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 5px;
+
+    color: yellow;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Bangers', cursive;
+
+}
+
+
+.curvy-bg-yellow{
+    color: #000 !important;
+    /* background-image: url('../img/curvy.svg') !important; */
+    background-size: cover;
+}
+
+
+.main-center-div{
+    width:900px;
+    margin:0 auto;
+}
+
+.main-div-feat-img{
+    width:700px;
+    margin:0 auto;
+}
+
+.main-abt-text{
+    font-family: 'open_sansregular';
+    color: #fff;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.cpy-text{
+    font-family: 'open_sansregular';
+    color: #fff;
+    font-size: 15px;
+    margin-top:20px;
+    text-align: justify;
+}
+
+.cover-page-left{
+    float: left;
+    display: table;
+    width: 50%;
+    height: 100vh;
+}
+
+.cover-page-right{
+    float: right;
+    width: 50%;
+    display: table;
+    height: 100vh;
+}
+
+
+
+
+
+
+/* RESPONSIVE STUFF */
+/* <celento> 29.12.17 */
+
+.linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #83c521 20%, #FF0 40%, #FF0 60%, #38dc1e 80%);
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 1s linear infinite;
+}
+
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+  
+
+.feat_img{
+    width:700px;
+    margin:0 auto;
+    align-self: center;
+    margin-bottom: 3s0px;
+}
+
+.hw-font{
+    font-size: 35px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Sacramento', cursive;
+}
+
+@media screen and (max-width:800px){
+   
+}
+
+
+@media screen and (max-width:550px){
+    
+ 
+
+  }
+
+
+   
+ /* Other Stuff */
+@media screen and (max-width:1024px){
+ 
+ .main-center-div{
+    width: calc(100% - 60px);
+    padding: 60px;
+    padding-bottom: 0px;
+ }
+
+ .main-content{
+     padding-bottom: 0px;
+     padding-top: 50px;
+
+ }
+
+ .feat_img{
+    width:600px;
+ }
+
+ .main-div-feat-img{
+     width:100%;
+ }
+
+ .main-abt-text{
+     font-size: 24px;
+ }
+
+ .name{
+     font-size: 60px;
+ }
+
+ .desc{
+    max-width: 700px;
+ }
+
+ .all-the-love{
+     margin-bottom: 100px;
+ }
+
+
+}
+
+@media screen and (max-width:760px)
+{
+
+    .main-center-div{
+        width: calc(100% - 0px);
+        padding: 0px;
+        padding-bottom: 0px;
+     } 
+     
+     .name{
+        font-size: 50px;
+    }
+   
+    .desc{
+       max-width: 500px;
+       font-size: 20px;
+   
+}
+ 
+.main-abt-text{
+    font-size: 21px;
+}
+
+
+}
+
+
+@media screen and (max-width:500px)
+{
+
+    .main-center-div{
+        width: calc(100% - 0px);
+        padding: 0px;
+        padding-bottom: 0px;
+     } 
+     
+     .name{
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+   
+    .desc{
+    
+        width:calc(100% - 20px);
+        padding:0px 10px;
+       font-size: 17px;
+       line-height: 24px;
+
+   
+    }
+
+    .headline-1{
+        font-size: 30px;
+    }
+ 
+    .main-abt-text{
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
