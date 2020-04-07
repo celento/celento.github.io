@@ -846,9 +846,10 @@ svg:not(:root) {
         display: flex;
         -ms-flex-align: center;
         align-items: center;
-        -ms-touch-action: none;
+        /* -ms-touch-action: none;
         touch-action: none;
-        content-zooming: none; } }
+        content-zooming: none;  */
+      } }
   .screen-slider .overlay {
     position: absolute;
     top: 0;
@@ -1960,7 +1961,7 @@ svg:not(:root) {
 .no-touchevents .slide:not(.swiper-slide-active) .s-triangle-4,
 .no-touchevents .slide:not(.swiper-slide-active) .s-triangle-6 {
   transform: rotate(40deg); }
-
+/* 
 .tablet-locker {
   display: none;
   z-index: 60;
@@ -2003,7 +2004,7 @@ svg:not(:root) {
     left: 0;
     width: 88px;
     height: 88px;
-    background-size: 44px; }
+    background-size: 44px; } */
 
 h1.underline, h2.underline {
   display: inline-block; }
