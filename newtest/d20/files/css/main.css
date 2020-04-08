@@ -42,12 +42,12 @@ body{
 }
 
 .me_img{
-    width:200px;
+    width: 150px;
     margin-bottom: 20px;
-    
+    border: 5px solid #fff;
     display: table-cell;
+    border-radius: 50%;
     vertical-align: middle;
-    /* border: 1px solid black */
 }
 
 .desc{
