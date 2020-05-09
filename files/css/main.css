@@ -39,7 +39,7 @@ body{
     line-height: 85px;
     color: #000;
     /* letter-spacing: 5px; */
-    font-family: 'open_sansbold';
+    font-family: 'open_sansblack';
 
     /* font-family: 'Yesteryear', cursive;/ */
 }
@@ -60,7 +60,7 @@ body{
     color: #000;
     text-align: center;
     line-height: 35px;
-    font-family: 'open_sansregular';
+    font-family: 'open_sansbold';
 }
 
 a{
@@ -167,7 +167,7 @@ a:hover{
 .main-abt-text{
     font-family: 'open_sansregular';
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     text-align: justify;
 }
 
@@ -329,7 +329,7 @@ a:hover{
 {
 
     .main-content{
-        padding:30px;
+        padding:80px 30px;
     }
     .main-center-div{
         width: calc(100% - 0px);

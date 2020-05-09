@@ -1,15 +1,21 @@
 @font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/archia-regular.woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'open_sansregular';
+  src: url('../fonts/ps-regular.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
     font-family: 'open_sansbold';
-    src: url('../fonts/archia-bold.woff');
+    src: url('../fonts/ps-bold.woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansblack';
+  src: url('../fonts/ps-black.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @keyframes tabletLockerAnim1 {
